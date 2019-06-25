@@ -970,11 +970,11 @@ color: #777777;
 }
 
 .footer-bg{
-    background-color: #232323;
+    background-color: #082442;
     color: #f9f9f9;
 }
 .footer-padd{
-    padding: 75px 0;
+    padding: 2em 0;
 }
 .foot-logo{
     max-width: 145px;
@@ -984,12 +984,7 @@ color: #777777;
 .foot-col-padd{
     padding: 0 20px;
 }
-.dream-text p{
-    font-size: 14px;
-    font-family: 'Open sans'; 
-    color: #dedede;
-    padding-top: 20px;
-}
+
 .foot-icon{
     margin-top: 25px;
     font-size: 13px;
@@ -1071,6 +1066,10 @@ margin: 0 5px;
     height: 38px;
     text-align: center;
     margin: 0 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 .contact-row-margin{
     margin-top: 20px;
@@ -1080,13 +1079,13 @@ margin: 0 5px;
 }
 .copyright-text{
     margin: auto;
-    background-color: #242424;
+    background-color: #082442;
 }
 .copyright-text a  {
     color: #fff;
 }
 .copyright-text a:hover {
-    color: #f65aa7;
+    color: #ffff3c;
     text-decoration:none;
 }
 /*===== The CSS =====*/
@@ -1103,12 +1102,24 @@ svg i:hover{
     background-color: #9fd7ef;
     border-radius: 50%;
     padding: 10px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 .progres-div1{
     margin-right: 34.5px;
     background-color: #57727e;
     padding: 10.5px;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 .progres-div1 i{
     font-size: 20px;
@@ -1122,6 +1133,10 @@ svg i:hover{
     background-color: #57727e;
     padding: 10.5px;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 .progres-div2 i{
     font-size: 20px;
@@ -1338,6 +1353,10 @@ svg i:hover{
         width: 100%;
         margin: 5em 0 5em 1em;
     }
+    .unico-back-blue{
+        background-color: #082442;
+    }
+    
         
     /* .unico-h2{
         line-height: 1em;
@@ -1352,4 +1371,22 @@ svg i:hover{
         letter-spacing: -2px;
         text-align: center
     } */
+}
+
+
+.btn-form{
+    background-color: #ce112d;
+    color: white;
+    padding: 0.5em 1.5em;
+    
+}
+.form-control{
+    padding: 0.7em 1.5em;
+    border-radius: 1px;
+    font-size: 120%;
+    width: 80%;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
 }
