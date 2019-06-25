@@ -9,7 +9,7 @@
     max-width: 1950px;
     width: 100%;
     margin: 0 auto;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .inside-container {
     max-width: 1200px;
@@ -42,7 +42,7 @@ i:hover{
     margin: 0 5px 0 0;
 }
 .contact-color{
-    background-color: #102235;
+    background-color: #082442;
     min-height: 80px;
 }
 
@@ -75,7 +75,7 @@ margin-bottom: 35px;
     width: 200px;
 }
 .nav-list .menu {
-    color: #333333;
+    color: #082442;
     font-size: 20px;
     line-height: 26px;
     padding: 0 20px;
@@ -151,15 +151,15 @@ margin-bottom: 35px;
     color: white;
 }
 .first-slider {
-    min-height: 800px;
+    min-height: 500px;
     
     background-image: url('../max-image/bussines-1.jpg');
     background-size: cover;
 }
 .first-slider-1 {
-    min-height: 800px;
+    min-height: 500px;
    
-    background-image: url('../max-image/bussines-1.jpg');
+    background-image: url('../image/slider1.png');
     background-size: cover;
 }
 
@@ -225,11 +225,11 @@ margin-bottom: 35px;
 .butns{
     margin-top: 45px;
 }
-.about-btn{  
+.about-btn{
     color: #333333;
     border-radius: 8px;
-     margin: 20px;
-     padding: 15px 40px;
+    margin: 20px;
+    padding: 15px 40px;
     background-color: #9fd7ef;
     text-transform: uppercase;
     text-decoration: none;
@@ -237,7 +237,10 @@ margin-bottom: 35px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
     border: none;
-
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 .about-btn:hover{
     background-color:#f65aa7; 
@@ -260,6 +263,10 @@ margin-bottom: 35px;
     font-weight: bolder;
     color: #333333;
     border: none;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 .arrow{
     font-size: 32px;
@@ -296,6 +303,10 @@ margin-bottom: 35px;
     margin-right: -5px;
     margin-left: -5px;
     margin-top: 10px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
 }
 .our-header i{
     color: #c0bfbf;
@@ -335,32 +346,31 @@ margin-bottom: 35px;
     color: #ffffff;
 }
 
-.h1-big{
-    font-Family: 'Lato';
-    font-weight: 700;
-    font-size: 76px;
-    line-Height: 68,97;
-}
+
 .money-back i {
     padding: 35px 29px;
 }
 .read-more{
     background-color: #c01233;
-    text-transform: uppercase;
-    padding: 10px 25px;
+    padding: 10px 85px;
     text-decoration: none;
     color: white;
     text-align: center;
-    font-size: 13px;
-    font-family: 'Open Sans', sans-serif;  
-    border-radius: 6px;
+    font-size: 20px;
+    border-radius: 60px;
     border: none;
+    -webkit-border-radius:;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+
+    -webkit-border-radius: 60px;
 }
-.rd-btn{
+/* .rd-btn{
     margin: 38px auto;
     text-align: center;
     
-} 
+}  */
 .read-more:hover{
     text-decoration: none;
     color: white;
@@ -421,7 +431,7 @@ margin-bottom: 35px;
     z-index: 999;
 }
 .product-top {
-    height: 300px;
+    /* height: 300px; */
     width: auto;
     /* min-width: 100%;
     min-height: 300px;   */
@@ -473,7 +483,7 @@ margin-bottom: 35px;
 }
 .capa-head {
     color: white;
-    padding-top: 20px; 
+    /* padding-top: -200px;  */
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
 }
@@ -481,6 +491,20 @@ margin-bottom: 35px;
     text-transform: uppercase;
     font-size: 32px;  
   
+}
+.mimo{
+    float: left;
+    margin-top: -3em;
+    /* overflow: unset; */
+}
+.blockquote{
+    margin-top: 1em;
+    font-family: 'Lato';
+    
+
+}
+strong{
+    font-weight: bolder;
 }
 .blockquote-footer{
     color: white;
@@ -671,6 +695,14 @@ display: flex;
 .owl-carousel .owl-prev {
     left: -90px;
 }
+
+
+
+.item-center{
+    align-items: center;
+    justify-items: center;
+    padding: 3em 20%;
+}
 @media (max-width: 1400px){ 
 
       .owl-theme .owl-nav [class*='owl-'] {
@@ -712,7 +744,7 @@ display: flex;
     height: auto;     
     padding: 0;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin:auto;
 }
 .over-image{
@@ -934,7 +966,9 @@ color: #777777;
     .partner-bg {
         min-height: 0px;
     }
+    
 }
+
 .footer-bg{
     background-color: #232323;
     color: #f9f9f9;
@@ -1179,9 +1213,103 @@ svg i:hover{
 
 
 .unico-blue{
-    color: #102235
+    color: #082442
 }
 
 .unico-red{
-    color: #c01233
+    color: #ce112d
+}
+.unico-rosado{
+    color: #fff0f4
+}
+.unico-h1{
+    font-size: 3.8em;
+    font-weight: bold;
+    font-family: 'Lato';
+    letter-spacing: -2px;
+    margin-top: 0.2em 
+}
+
+.unico-p{
+    font-size: 1.5em;
+    margin: 0.5em 20% 3em 20%;
+    text-align: center;
+    line-height: 1.2em;
+}
+.unico-h2{
+    line-height: 1em;
+     font-size: 280%;
+     font-weight: bolder;
+     margin: 0;
+ }
+
+ .unico-h3{
+    font-size: 180%;
+    font-weight: bolder;
+    line-height: 1.2em;
+
+ }
+
+.unico-big{
+    font-size: 650%;
+    font-weight: bold;
+    letter-spacing: -2px;
+    margin: 0;
+    padding: 0;
+    align-content: center
+    /* margin-top: 0.2em  */
+}
+
+.cert{
+    margin-top: 3.5em;
+    width: 70%
+}
+.vertical-midle{
+    
+    margin-top: 15px;
+}
+
+@media (max-width: 988px){
+    .unico-h2{
+        font-size: 250%;
+        text-align: center
+    }
+
+    .unico-big{
+        font-size: 430%;
+        text-align: center
+    }
+}
+
+@media (max-width: 600px){
+    .cert{
+        width:110%;
+        margin: 3.5em 0 0 -1.5em
+    }
+    .unico-h1{
+        font-size: 2em;
+        text-align: center;
+        font-weight: bold;
+
+       
+    }
+    .unico-p{
+        font-size: 1.2em;
+        margin: 0 0 5em 0;
+        text-align: center;
+    }
+        
+    /* .unico-h2{
+        line-height: 1em;
+        font-size: 2em;
+        font-weight: bolder;
+        text-align: center
+    }
+
+    .unico-big{
+        font-size: 3em;
+        font-weight: bold;
+        letter-spacing: -2px;
+        text-align: center
+    } */
 }
