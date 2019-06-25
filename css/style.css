@@ -1340,6 +1340,17 @@ svg i:hover{
     font-size: 130%
 }
 
+.footer-img{
+    width: 100%;
+}
+.padding{
+    padding: 2em 0;
+}
+
+
+#corp{
+    padding-top: 2em;
+}
 @media (max-width: 988px){
     .unico-h2{
         font-size: 200%;
@@ -1358,6 +1369,11 @@ svg i:hover{
     .unico-h5{
         width: 60%;
     }
+    .form-control{
+        font-size: 100%;
+        width: 80%;
+        margin: 0 1em;
+}
 }
 
 @media (max-width: 600px){
@@ -1395,7 +1411,11 @@ svg i:hover{
     .unico-back-blue{
         background-color: #082442;
     }
-    
+    .form-control{
+        font-size: 100%;
+        width: 90%;
+        margin: 0 1em;
+}
         
     /* .unico-h2{
         line-height: 1em;
