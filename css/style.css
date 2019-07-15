@@ -22,10 +22,9 @@
     font-size: 18px;
    
 }
-i:hover{
-    color: #f65aa7;
-    cursor: pointer;
-}
+
+
+
 .icon-scp{
     font-size: 12px;
     color: white;
@@ -43,7 +42,7 @@ i:hover{
 }
 .contact-color{
     background-color: #082442;
-    min-height: 80px;
+    min-height: 40px;
 }
 
 .col-disp{
@@ -53,12 +52,13 @@ i:hover{
 
 .link-head{
     color: white;
-    font-size: 20px;
+    font-size: 0.8em;
 }
 .link-head:hover{
     text-decoration: none;
     color: #fff0f4;
     cursor: pointer;
+    
 }
 
 .nav-bg-color{
@@ -67,12 +67,12 @@ background-color: white;
 
 }
 .nav-contain{
-margin-top: 35px;
-margin-bottom: 35px;
+margin-top: 10px;
+margin-bottom: 10px;
 
 }
 .navbar img{
-    width: 200px;
+    width: 150px;
 }
 .nav-list .menu {
     color: #082442;
@@ -81,17 +81,19 @@ margin-bottom: 35px;
     padding: 0 20px;
     text-decoration: none;        
 }
-.nav-list .menu:hover {
-    border-bottom: 2px solid #102235;
 
-    
+.nav-list .menu:hover hr {
+
+    height: 3px;
+    width: 30px;
+    background-color: #082442;
 
 }
 
-
-
-
-
+hr {
+    height: 0px;
+    width: 0%;
+}
 
 .color-line{
     color: #999999!important;
@@ -99,7 +101,7 @@ margin-bottom: 35px;
 
 .carousel-height img{
 
-    max-height: 800px;
+    height: 700px;
 }
 .icon-color {
     color: #f65aa7!important;
@@ -142,7 +144,7 @@ margin-bottom: 35px;
         text-align: center;
     }
     .link-head{
-        font-size: 18px;
+        font-size: 13px;
        
     }
 }
@@ -151,15 +153,27 @@ margin-bottom: 35px;
     color: white;
 }
 .first-slider {
-    min-height: 500px;
+    min-height: 200px;
     
-    background-image: url('../image/slider1.jpg');
-    background-size: cover;
+    background-image: url('../image/sliders/1.jpg');
+    background-size: cover; 
 }
 .first-slider-1 {
-    min-height: 500px;
+    min-height: 200px;
    
-    background-image: url('../image/slider1.jpg');
+    background-image: url('../image/sliders/2.jpg');
+    background-size: cover;
+}
+.first-slider-2 {
+    min-height: 200px;
+   
+    background-image: url('../image/sliders/3.jpg');
+    background-size: cover;
+}
+.first-slider-3 {
+    min-height: 300px;
+   
+    background-image: url('../image/sliders/4.jpg');
     background-size: cover;
 }
 
@@ -181,7 +195,7 @@ margin-bottom: 35px;
         max-height: 700px;
     }
     .carousel-text {
-        padding-top: 200px!important;
+        padding-top: 80px!important;
     }
     .carousel-text span{
         font-size: 20px!important;
@@ -211,7 +225,7 @@ margin-bottom: 35px;
 }
 .carousel-text{
 
-    padding-top:460px;
+    padding:210px 0 ;
     text-align: center;
 }
 .carousel-text p {
@@ -237,10 +251,10 @@ margin-bottom: 35px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
     border: none;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
 .about-btn:hover{
     background-color:#f65aa7; 
@@ -263,10 +277,10 @@ margin-bottom: 35px;
     font-weight: bolder;
     color: #333333;
     border: none;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
 .arrow{
     font-size: 32px;
@@ -352,7 +366,7 @@ margin-bottom: 35px;
 }
 .read-more{
     background-color: #c01233;
-    padding: 10px 75px;
+    padding: 10px 50px;
     margin-bottom: 60px;
     text-decoration: none;
     color: white;
@@ -366,11 +380,11 @@ margin-bottom: 35px;
     -o-border-radius: 60px;
     -webkit-border-radius: 60px;
 }
-/* .rd-btn{
+.rd-btn{
     margin: 38px auto;
     text-align: center;
     
-}  */
+} 
 .read-more:hover{
     text-decoration: none;
     color: white;
@@ -985,31 +999,26 @@ color: #777777;
     padding: 0 20px;
 }
 
-.foot-icon{
-    margin-top: 25px;
-    font-size: 13px;
-    color: #ececec;
-    /* margin-right: 18px;
-    border-radius: 100em;
-    padding: 1em 1.2em;
-    
-    text-align: center;
-    -webkit-border-radius: 100em;
-    -moz-border-radius: 100em;
-    -ms-border-radius: 100em;
-    -o-border-radius: 100em; */
-    border: 1.5px solid white;
-
-    border-radius: 0.8em;
+.sosial-links {
     display: inline-block;
-  font-weight: bold;
-  line-height: 1.6em;
-  margin-right: 15px;
-  text-align: center;
-  width: 1.6em; 
+    
+    width: 36px;
+    height: 36px;
+    border: 1.5px solid #ffffff;
+    border-radius: 20px;
+    margin-right: 7px; /*space between*/
 
-
+} 
+.sosial-links  i{
+    padding: 8px 11px 11px 9px;
+    font-size: 16px;
+    color: #ffffff;
 }
+
+
+
+
+
 .foot-icon:hover{
     color: #9fd7ef;
 }
@@ -1251,7 +1260,7 @@ svg i:hover{
 }
 
 .unico-red{
-    color: #ce112d
+    color: #e00a31
 }
 .unico-rosado{
     color: #fff0f4
@@ -1293,7 +1302,7 @@ svg i:hover{
 
  }
  .taller{
-     width: 90%;
+     width: 100%;
     float: left;
     margin-top: -2em;
     margin-bottom: -2em;            
@@ -1337,7 +1346,8 @@ svg i:hover{
 }
 
 .footer-h2{
-    font-size: 130%
+    font-size: 130%;
+    
 }
 
 .footer-img{
@@ -1350,6 +1360,44 @@ svg i:hover{
 
 #corp{
     padding-top: 2em;
+}
+
+.unico-fil-h2{
+  
+  font-Size: 2em;
+  font-weight: bolder
+}
+.unico-parrafo{
+    
+    font-Size: 1.3em;
+    font-Weight: 400;
+    line-Height: 1.5em;
+}
+
+.unico-parrafo2{
+    
+    font-Size: 1em;
+    font-Weight: 400;
+    line-Height: 1.5em;
+}
+.red-round{
+    background-color: #e00a31;
+    color: white;
+    border-radius: 100em;
+    /*padding: 0.7em 0.8em;
+    */text-align: center;
+    padding: 5px 17px;
+    -webkit-border-radius: 100em;
+    -moz-border-radius: 100em;
+    -ms-border-radius: 100em;
+    -o-border-radius: 100em;
+    margin: 5px 10px;
+}
+.cont-vision{
+    width:60%;
+}
+.cont-item{
+    margin: 25px 0;
 }
 @media (max-width: 988px){
     .unico-h2{
@@ -1377,6 +1425,15 @@ svg i:hover{
 }
 
 @media (max-width: 600px){
+
+    .mimo{
+       
+        margin-top: -1em;
+       
+    }
+    .mimo img{
+        width: 100%;
+    }
     .cert{
         width:110%;
         margin: 3.5em 0 0 -1.5em
@@ -1432,3 +1489,39 @@ svg i:hover{
     } */
 }
 
+
+
+.cont-trainers {
+    width: 85%;
+}
+
+.trainer {
+    width: 28%;
+}
+
+.trainer > * {
+    margin: 8px;
+}
+
+.trainer-text {
+    width: 90%;
+}
+
+.img-trainer {
+    width: 92%;
+}
+
+.trainer-name {
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.trainer-title {
+    font-size: 1.3rem;
+}
+
+.trainer-desc {
+    font-size: 1rem;
+    letter-spacing: 1px;
+
+}
