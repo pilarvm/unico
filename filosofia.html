@@ -27,8 +27,9 @@
 
 <body>
 
-  <!--header-->
-  <div class="main-container contact-color">
+ 
+   <!--header-->
+   <div class="main-container contact-color">
     <div class="inside-container ">
       <div class="row row-spc">
         <div class="col-md-12  col-disp">
@@ -38,9 +39,7 @@
           </div>
 
           <div class="ml-auto">
-            <a class="link-head "
-              href="https://api.whatsapp.com/send?phone=+51985881531&text=Hola, quisiera participar en el Taller de Clown"
-              target="_blank"><img src="./image/whatsapp-messenger-logo.png" alt="">
+            <a class="link-head " href="https://api.whatsapp.com/send?phone=+51985881531&text=Hola, quisiera participar en el Taller de Clown" target="_blank"><img src="./image/whatsapp-messenger-logo.png" alt=""> 
               Whatsapp: <strong> 985 881 531</strong>
             </a>
           </div>
@@ -61,7 +60,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav nav-list ml-auto">
-              <a class="menu" href="index.html">Inicio<hr></a>
+            <a class="menu" href="index.html">Inicio<hr></a>
             <a class="menu" href="filosofia.html">Filosofía<hr></a>
             <a class="menu" href="talleres.html">Talleres<hr></a>
             <a class="menu" href="entrenadores.html">Entrenadores<hr></a>
@@ -196,7 +195,7 @@
         </div>
         <p class="unico-h3 unico-blue">Taller de actuación<br> e improvisación</p>
         <div class="rd-btn">
-          <button class="read-more"> Quiero asistir</button>
+          <button class="read-more" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=+51985881531&text=Hola, quisiera participar en el Taller de actuacion e improvisacion';"> Quiero asistir</button>
         </div>
       </div>
 
@@ -207,7 +206,7 @@
         </div>
         <p class="unico-h3 text-center unico-blue">Taller integral <br> del Clown</p>
         <div class="rd-btn">
-          <button class="read-more"> Quiero asistir</button>
+          <button class="read-more" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=+51985881531&text=Hola, quisiera participar en el Taller de Clown';"> Quiero asistir</button>
         </div>
       </div>
 
@@ -218,7 +217,7 @@
         </div>
         <p class="unico-h3 unico-blue">Taller práctico<br> Youtuber kids</p>
         <div class="rd-btn">
-          <button class="read-more"> Quiero asistir</button>
+          <button class="read-more" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=+51985881531&text=Hola, quisiera participar en el Taller de youtuber kids';"> Quiero asistir</button>
         </div>
       </div>
 
@@ -232,19 +231,19 @@
 
   <!-- footer-->
   <footer class="page-footer footer-bg padding-top">
-    <div class="inside-container">
-      <div class="row ">
-        <div class=" col-sm-12 col-lg-6">
-          <h2 class="unico-big unico-red text-right">contacto</h2>
+      <div class="inside-container">
+        <div class="row ">
+          <div class=" col-sm-12 col-lg-6">
+            <h2 class="unico-big unico-red text-right">contacto</h2>
+          </div>
+          <div class=" col-sm-12 col-lg-6">
+            <p id="corp" class="footer-h2">Para talleres corporativos, conferencias, <br>
+              presentaciones y eventos completa este formulario.</p>
+          </div>
         </div>
-        <div class=" col-sm-12 col-lg-6">
-          <p id="corp" class="footer-h2">Para talleres corporativos, conferencias, <br>
-            presentaciones y eventos completa este formulario.</p>
-        </div>
-      </div>
-
-      <div class="row  padding">
-        <div class="col-lg-6 col-sm-12 text-center ">
+  
+        <div class="row  padding">
+          <div class="col-lg-6 col-sm-12 text-center ">
             <img class="footer-img" src="./image/fcontacto.png" alt="contacto">
             <div class="footer-h2 padding">Síguenos en   : &nbsp &nbsp
   
@@ -254,45 +253,46 @@
        
               </div>
           </div>
-        <div class=" col-lg-6 col-sm-12 text-center ">
-
-          <form>
-            <div class="form-group">
-              <input type="text" class="form-control" id="formNombre" placeholder="Tu nombre aquí">
-            </div>
-            <div class="form-group">
-              <input type="email" class="form-control" id="formMail" placeholder="Tu mail aquí">
-            </div>
-            <div class="form-group">
-              <input type="number" class="form-control" id="formWhatsapp" placeholder="Tu WhatsApp aquí">
-            </div>
-            <div class="form-group">
-              <textarea rows="4" type="text" class="form-control" id="formMensaje"
-                placeholder="Tu mensaje aquí"></textarea>
-            </div>
-            <div class="form-group text-center">
-              <img src="./image/arrow.png" alt="arrow"> <button type="submit" class="btn btn-form"> ¡Enviar
-                Ahora!</button>
-            </div>
-          </form>
+          <div class=" col-lg-6 col-sm-12 text-center ">
+  
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" id="formNombre" placeholder="Tu nombre aquí">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="formMail" placeholder="Tu mail aquí">
+              </div>
+              <div class="form-group">
+                <input type="number" class="form-control" id="formWhatsapp" placeholder="Tu WhatsApp aquí">
+              </div>
+              <div class="form-group">
+                <textarea rows="4" type="text" class="form-control" id="formMensaje"
+                  placeholder="Tu mensaje aquí"></textarea>
+              </div>
+              <div class="form-group text-center">
+                <img src="./image/arrow.png" alt="arrow"> <button type="submit" class="btn btn-form"> ¡Enviar
+                  Ahora!</button>
+              </div>
+            </form>
+          </div>
         </div>
+  
+  
+  
+        <div class="row text-center ">
+          <div class="col-lg-6 col-sm-12 copyright-text">
+            <p><small> &#169; Copyright 2019, Único Perú todos los Derechos Reservados.</small></p>
+          </div>
+          <!-- <div class="col-lg-6 col-sm-12 copyright-text">
+            <p> <small>Diseño y programación <a href="http://insightestrategas.com/" target="_blank">Insight BrandConsultans</a></small> 
+            </p>
+          </div> -->
+        </div>
+  
       </div>
-
-
-
-      <div class="row text-center ">
-        <div class="col-lg-6 col-sm-12 copyright-text">
-          <p><small> &#169; Copyright 2019, Único Perú todos los Derechos Reservados.</small></p>
-        </div>
-        <div class="col-lg-6 col-sm-12 copyright-text">
-          <p> <small>Diseño y programación <a href="http://insightestrategas.com/" target="_blank">Insight BrandConsultans</a></small> 
-          </p>
-        </div>
-      </div>
-
-    </div>
-  </footer>
-
+    </footer>
+  
+  
 
 
 
