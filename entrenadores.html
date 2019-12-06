@@ -9,8 +9,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <!-- owl carousel -->
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -20,6 +19,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 
+
   <link rel="stylesheet" href="css/style.css" type="text/css">
   <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon">
   <title>Unico Peru</title>
@@ -28,7 +28,7 @@
 <body>
 
    <!--header-->
-   <div class="main-container contact-color">
+   <!-- <div class="main-container contact-color">
     <div class="inside-container ">
       <div class="row row-spc">
         <div class="col-md-12  col-disp">
@@ -45,51 +45,56 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
   <!--menu-->
-  <div class="main-container nav-bg-color">
-    <div class="inside-container nav-contain">
-      <nav class="navbar navbar-expand-lg navbar-light ">
-        <img src="image/Logo 4.png" class="img-fluid" alt="">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav nav-list ml-auto">
-            <a class="menu" href="index.html">Inicio<hr></a>
-            <a class="menu" href="filosofia.html">Filosofía<hr></a>
-            <a class="menu" href="talleres.html">Talleres<hr></a>
-            <a class="menu" href="entrenadores.html">Entrenadores<hr></a>
-            <a class="menu" href="contactenos.html">Contáctanos<hr></a>
-          </div>
-        </div>
-      </nav>
-    </div>
-  </div>
-
-
-
-
-  <div class="">
-    
-      <div class= "col-lg-12 text-center">
-          <div class="col-lg-6 text-center">
-              <h2 class="font-weight-bold unico-blue"><span class="unico-red">#</span>Nuestros<span
-                  class="unico-red">Entrenadores</span></h2>
+  <div class="main-container nav-bg-color text-center" id="sticky">
+      <div class="inside-container nav-contain text-center">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a href="index.html">
+                <img src="image/Logo 4.png" class="img-fluid" alt="">
+              </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav nav-list ml-auto mover-top">
+              <a class="menu" href="index.html">Inicio<hr></a>
+              <a class="menu" href="filosofia.html">Filosofía<hr></a>
+              <a class="menu" href="talleres.html">Talleres<hr></a>
+              <a class="menu" href="entrenadores.html">Entrenadores<hr></a>
+              <a class="menu" href="contactenos.html">Contáctanos<hr></a>
+              <a class="menu menu-whatsapp"
+                href="https://api.whatsapp.com/send?phone=+51985881531&text=Hola, quisiera participar en el Taller de Clown"
+                target="_blank">
+                <img src="./image/whatsapp-messenger-logo.png" alt="">
+                <strong class="numero-whatsapp">985 881 531</strong>
+              </a>
             </div>
-        
-        <img src="./image/wave.png">
+          </div>
+        </nav>
       </div>
+    </div>
+  
+<div class="main-container">
+    <div class="row">
+        
+          <div class="col-12 col-sm-8 col-ms-6 col-md-6 col-lg-6 text-left">
+              <h2 class="font-weight-bold unico-blue col-sm-6 text-center"><span class="unico-red">#</span>Nuestros<span
+                  class="unico-red">Entrenadores</span></h2>
+          </div>
+        <div class="col-12 col-sm-4 col-md-6 col-lg-6 text-center"><img src="./image/wave.png"></div>
+        
+     
     
-    
-        <div class=" col-sm-12 col-m-6 col-lg-4 text-center ">
+        <div class=" col-sm-12 col-md-6 col-lg-4 col-xl-4 ">
           
-            <div class="text-center">
+            <div class="col-lg-12 text-center">
                 <img class="img-trainer" src="./image/trainer-one.png">
             </div>
+            <div class="col-md-10 col-lg-12 text-center">
             <h5 class="unico-blue trainer-name font-weight-bold">Fernando Pétong </h5>
             <h6 class="unico-blue trainer-title font-weight-bold">Entrenador de Clown</h6>
             <p class="trainer-text unico-blue trainer-desc">Actor y productor de Teatro, cine y TV.<br>
@@ -98,29 +103,33 @@
               del
               Comportamiento en conjunto con la Escuela Nacional superior de Arte Dramático (ENSAD).
             </p>
+          </div>
         </div>
-  
-        <div class=" col-sm-12 col-m-6 col-lg-4 text-center ">
-            
-              <div class="text-center">
+        
+          <div class=" col-sm-12 col-md-6 col-lg-4 col-xl-4 ">  
+              <div class="col-lg-12 text-center">
                   <img class="img-trainer" src="./image/trainer-two.png">
-              </div>
-              <h5 class="unico-blue trainer-name font-weight-bold"> Gretell Krebs
-                </h5>
-                <h6 class="unico-blue trainer-title font-weight-bold">Entrenador de Clown</h6>
-                <p class="trainer-text unico-blue trainer-desc">Actriz , docente y clown.<br>
+                  </div>
+                  <div class="col-md-12 col-lg-12 text-center">
+                <h5 class="unico-blue trainer-name font-weight-bold"> Gretell Krebs
+                  </h5>
+                  <h6 class="unico-blue trainer-title font-weight-bold">Entrenador de Clown</h6>
+                  <p class="trainer-text unico-blue trainer-desc">Actriz , docente y clown.<br>
                   Formada con Fiorella Kollman, y Gestus escuela.<br>
                   Ha recibido talleres fuera en Colombia, Chile, Ecuador y Paraguay.<br>
       
                   Actualmente conforma el dúo “Violeta y Escupido”.
                 </p>
-        </div>
-  
-        <div class=" col-sm-12 col-m-6 col-lg-4 text-center ">
+              </div>
+          </div>
+
+       
+        <div class=" col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
             
-                <div class="text-center">
+                <div class="col-lg-12 text-center">
                     <img class="img-trainer" src="./image/trainer-three.png">
                 </div>
+                <div class="col-md-12 col-lg-12 text-center">
                 <h5 class="unico-blue trainer-name font-weight-bold"> Cristóbal Molines </h5>
                 <h6 class="unico-blue trainer-title font-weight-bold">Entrenador de Clown</h6>
                 <p class="trainer-text unico-blue trainer-desc">Artista de circo y clown profesional formado en Chile.
@@ -128,23 +137,23 @@
                   Chacovachi
                   (Argentina) Jhonny Melvin (Escocia) Tony Marraqueta y Mimo Tuga de Chile.
                 </p>
+              </div>
         </div>
-    
-        
-       
-  </div>
+
+  </div>  
+</div>
   <!--proximos talleres-->
 
   <div class="main-container">
 
     <div class="inside-container">
       <div class="row ">
-        <div class="col-m-12 col-lg-5 vertical-midle text-right">
+        <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5 vertical-midle text-right">
           <!-- <img src="./image/INHOUSE2.png" alt="TALLERES"> -->
           <p class="unico-h2 unico-blue"> PRÓXIMOS<br> TALLERES</p>
         </div>
         <!-- <img src="./image/INHOUSE.png" alt=""> -->
-        <div class="col-m-12 col-lg-7 text-left">
+        <div class="col-sm-7 col-md-7 col-lg-7 col-xl-7 text-left">
           <h5 class="unico-big unico-red">INHOUSE</h5>
         </div>
       </div>
@@ -199,7 +208,7 @@
       <div class="inside-container">
         <div class="row ">
           <div class=" col-sm-12 col-lg-6">
-            <h2 class="unico-big unico-red text-right">contacto</h2>
+            <h2 class="unico-big unico-red text-center">contacto</h2>
           </div>
           <div class=" col-sm-12 col-lg-6">
             <p id="corp" class="footer-h2">Para talleres corporativos, conferencias, <br>
